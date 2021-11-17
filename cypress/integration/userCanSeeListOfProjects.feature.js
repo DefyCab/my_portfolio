@@ -23,9 +23,9 @@ describe("User can see list of projects", () => {
     it ("is expected to display the third project", () => {
         cy.get("#project-1").within(() => {
             cy.get(".image").should("exist")
-            cy.get(".header").should("contain", "My third project")
+            cy.get(".header").should("contain", "My projects")
             cy.get(".description").should("contain", "This was nice")
-        )
+        })
     })
 })
 
