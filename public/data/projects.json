@@ -8,11 +8,14 @@
     {
       "id": 2,
       "name": "FizzBuzz",
-      "image": "https://code.kx.com/q/img/fizzbuzz.png"
+      "image": "https://code.kx.com/q/img/fizzbuzz.png",
+      "description": "The first coding kata I attended at Craft Academy" 
     }, 
     {
         "id": 3,
-        "name": "My projects"
+        "name": "The final project",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Sherlock_Holmes_and_Professor_Moriarty_at_the_Reichenbach_Falls.jpg/800px-Sherlock_Holmes_and_Professor_Moriarty_at_the_Reichenbach_Falls.jpg",
+        "description": "This future project is important since it's the doorway to a brighter beyond"
     }
 
   ]
