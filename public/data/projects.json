@@ -2,12 +2,13 @@
     {
       "id": 1,
       "name": "My First Website",
-      "image": "https://unsplash.com/s/photos/vintage-computers",
+      "image": "https://images.unsplash.com/photo-1571846052945-f70f6b2542d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=890&q=80",
       "description": "This was my first project!"
     },
     {
       "id": 2,
-      "name": "FizzBuzz"
+      "name": "FizzBuzz",
+      "image": "https://code.kx.com/q/img/fizzbuzz.png"
     }, 
     {
         "id": 3,
