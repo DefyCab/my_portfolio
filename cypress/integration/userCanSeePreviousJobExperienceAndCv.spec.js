@@ -7,7 +7,7 @@ describe('User can access My CV tab', () => {
     beforeEach(() => {
       cy.get('#cv-tab').click()
     })
-    it('displays CV header', () => {
+    it('displays Cv header', () => {
       cy.get('#cv-header').should('contain', 'CV')
     })
     it('displays component name in url', () => {
