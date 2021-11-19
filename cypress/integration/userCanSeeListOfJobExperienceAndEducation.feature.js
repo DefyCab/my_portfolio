@@ -6,13 +6,13 @@ describe('User can see list of job experience and previous education')
   })
 
   it('is expected to display job experience', () => {
-    cy.get("#cv_history-1").within (() => {
+    cy.get("#cvhistory-1").within (() => {
         cy.get('.header').should('contain', 'My job experience')
         cy.get('.image').should('exist')
         cy.get('descriptiom').should('contain', 'A brief history of a working man')
     })
     it('is expected to display the first project', () => {
-        cy.get('#cv-history-2').within(() => {
+        cy.get('#cvhistory-2').within(() => {
             cy.get('.header').should('contain', 'My Education')
             cy.get('.image').should('exist')
             cy.get('.description').should('contain', 'The reniassance man project')
