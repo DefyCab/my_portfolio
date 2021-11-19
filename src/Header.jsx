@@ -6,25 +6,25 @@ const Header = () => {
   return (
     <Segment inverted color="blue">
       <Menu inverted secondary>
-        <Menu.Item
+        <MenuItem
           id="header"
           name="my projects"
           as={Link}
           to={{ pathname: '/' }}
         />
-        <Menu.Item
+        <MenuItem
           id="about-tab"
           name="about me"
           as={NavLink}
           to={{ pathname: '/about' }}
         />
-        <Menu.Item
+        <MenuItem
           id="projects-tab"
           name="my portfolio"
           as={NavLink}
           to={{ pathname: '/projects' }}
         />
-        <Menu.Item
+        <MenuItem
           id="cv-tab"
           name="cv"
           as={NavLink}
