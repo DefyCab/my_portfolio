@@ -1,5 +1,5 @@
 import React from 'react'
-import { Menu, Segment } from 'semantic-ui-react'
+import { Menu, MenuItem, Segment } from 'semantic-ui-react'
 import { NavLink, Link } from 'react-router-dom'
 
 const Header = () => {
@@ -24,6 +24,12 @@ const Header = () => {
           as={NavLink}
           to={{ pathname: '/projects' }}
         />
+        <Menu.Item
+          id="cv-tab"
+          name="cv"
+          as={NavLink}
+          to={{ pathname: '/cv'}}
+          />
       </Menu>
     </Segment>
   )
