@@ -5,7 +5,7 @@ const Cv = () => {
 
     return (
         <Container textAlign="fluid">
-            <h1 id="Cv-header">My Cv</h1>
+            <h1 id="cv-header">My Cv</h1>
         </Container>
     )
 }
