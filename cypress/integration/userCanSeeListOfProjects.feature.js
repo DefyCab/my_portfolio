@@ -19,7 +19,7 @@ describe('User can see list of projects', () => {
       cy.get('.header').should('contain', 'FizzBuzz')
       cy.get('.description').should(
         'contain',
-        'Would you mind if I rub your curly brackets?',
+        'This was my first kata',
       )
     })
   })
@@ -27,7 +27,7 @@ describe('User can see list of projects', () => {
     cy.get('#project-3').within(() => {
       cy.get('.image').should('exist')
       cy.get('.header').should('contain', 'My projects')
-      cy.get('.description').should('contain', 'This was nice')
+      cy.get('.description').should('contain', 'This final problem')
     })
   })
 })
