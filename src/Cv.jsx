@@ -5,8 +5,8 @@ const Cv = () => {
 
     return (
         <Container textAlign="fluid">
-            <h1 id="Cv-header"></h1>
-        </Container >
+            <h1 id="Cv-header">My Cv</h1>
+        </Container>
     )
 }
 

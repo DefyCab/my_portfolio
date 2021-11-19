@@ -57,4 +57,25 @@ describe('User can navigate the app', () => {
       cy.get('#projects-header').should('not.exist')
     })
   })
+
+  describe('to Cv tab and it', () => {
+    beforeEach(() => {
+      cy.get('#cv-tab').click()
+    })
+    it('displays My Cv header', () => {
+      cy.get('#cv-header').should('contain', 'My')
+    })
+    it('displays component name in url', () => {
+      cy.url().should('contain', 'cv')
+    })
+    it('does not dispaly My Projects', () => {
+      cy.get('#projects-header').should('not.exist')
+    })
+    it('does not display Hello World', () => {
+      cy.get('#hello').should('not.exist')
+    })
+    it('does not display About Me', () => {
+      cy.get('#about-me').should('not.exist')
+    })
+  })
 })
