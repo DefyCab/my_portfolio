@@ -9,7 +9,7 @@ const Cvs = () => {
 
   let cvList = cvs.map((cv) => {
     return (
-      <div id={`cv-${cv.id}`} key={cv.id}>
+      <div id={`cvhistory-${cv.id}`} key={cv.id}>
         <CvCard cv={cv} />
       </div>
     )
@@ -23,7 +23,7 @@ const Cvs = () => {
 
   return (
     <Container>
-      <h1 id="cv-header">My Projects</h1>
+      <h1 id="cv-header">My education and job experience - a brief story of the renissance man</h1>
       <Grid>{cvList}</Grid>
     </Container>
   );
