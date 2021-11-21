@@ -2,12 +2,14 @@
     {
         "id": 1,
         "name": "My job experience",
+        "image": "",
         "description": "brief"
     },
 
     {
         "id": 2,
         "name": "My Educatiom",
+        "image": "",
         "description": "man"
     }
 ]
