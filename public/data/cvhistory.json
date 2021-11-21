@@ -3,13 +3,13 @@
         "id": 1,
         "name": "My job experience",
         "image": "",
-        "description": "brief"
+        "description": "A brief history of a working man"
     },
 
     {
         "id": 2,
-        "name": "My Educatiom",
+        "name": "My Education",
         "image": "",
-        "description": "man"
+        "description": "The reniassance man project"
     }
 ]

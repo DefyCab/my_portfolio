@@ -13,7 +13,7 @@ class Cv extends Component {
 
     let cvsList = cvs.map((cv) => {
       return (
-        <div id={`cv-${cv.id}`} key={cv.id}>
+        <div id={`cvhistory-${cv.id}`} key={cv.id}>
           <CvCard cv={cv} />
         </div>
       )

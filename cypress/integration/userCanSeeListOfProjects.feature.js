@@ -17,17 +17,15 @@ describe('User can see list of projects', () => {
     cy.get('#project-2').within(() => {
       cy.get('.image').should('exist')
       cy.get('.header').should('contain', 'FizzBuzz')
-      cy.get('.description').should(
-        'contain',
-        'This was my first kata',
-      )
+      cy.get('.description').should('exist')
     })
   })
+  
   it('is expected to display the third project', () => {
     cy.get('#project-3').within(() => {
       cy.get('.image').should('exist')
-      cy.get('.header').should('contain', 'My projects')
-      cy.get('.description').should('contain', 'This final problem')
+      cy.get('.header').should('contain', 'The final project')
+      cy.get('.description').should('exist')
     })
   })
 })
