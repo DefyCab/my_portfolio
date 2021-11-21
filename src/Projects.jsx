@@ -20,8 +20,9 @@ class Projects extends Component {
     })
 
     return (
-      <Container>
+      <Container center>
         <h1 id="projects-header">My Projects</h1>
+        <br></br>
         <Grid>{projectsList}</Grid>
       </Container>
     )

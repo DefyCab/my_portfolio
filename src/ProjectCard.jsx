@@ -11,7 +11,6 @@ const ProjectCard = ({ project }) => {
         <Card.Meta> <span className="date">Completed in 2021</span> </Card.Meta>
         <Card.Description style ={{
           color: "blue"}}>
-          
           {project.description}</Card.Description>
         </Card.Content>
     </Card>
