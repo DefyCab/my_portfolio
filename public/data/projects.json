@@ -3,18 +3,18 @@
     "id": 1,
     "name": "My First Website",
     "image": "https://images.unsplash.com/photo-1571846052945-f70f6b2542d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=890&q=80",
-    "description": "The image above is exaggerated but it was a long time ago I built my first website. Back in the 1990's you would get up tom five domains when purchasing Internet access. World wide web was new then and it was just simple HTML code that dominated. Everybody back then had a 'My Homepage' but they rarely held any interresting information. "
+    "description": "The image above is exaggerated but it was a long time ago I built my first website. Back in the 1990's you would get up to five domains when purchasing Internet access. World wide web was new then and it was just simple HTML code that dominated. Everybody back then had a 'My Homepage' but they rarely held any interresting information. "
   },
   {
     "id": 2,
     "name": "FizzBuzz",
     "image": "https://code.kx.com/q/img/fizzbuzz.png",
-    "description": "The first coding kata I attended at Craft Academy"
+    "description": "The first coding kata I attended at Craft Academy."
   },
   {
     "id": 3,
     "name": "The final project",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Sherlock_Holmes_and_Professor_Moriarty_at_the_Reichenbach_Falls.jpg/800px-Sherlock_Holmes_and_Professor_Moriarty_at_the_Reichenbach_Falls.jpg",
-    "description": "This future project is important since it's the doorway to a brighter beyond"
+    "description": "This future project is important since it's the doorway to a brighter beyond."
   }
 ]

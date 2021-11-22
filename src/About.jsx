@@ -1,14 +1,17 @@
 import React from 'react'
-import { Container } from 'semantic-ui-react'
+import { Container, Segment } from 'semantic-ui-react'
 
 const About = () => {
   return (
-    <Container fluid>
-      <h1 id="about-header">About Me:</h1>
-      <p>
+    <Container>
+      <Segment inverted color="blue">
+      <h2 id="about-header">About Me:</h2>
+      <br></br>
+      <h1>
         I am currently trying to navigate through the mists of coding together
         with my brave cohort of keyboard warriors.
-      </p>
+      </h1>
+      </Segment>
     </Container>
   )
 }
